@@ -28,7 +28,7 @@ describe('Selectors', function() {
   });
 
   it('#checkboxInputSelector should select all checkbox inputs', function() {
-    
+
     expect(checkboxInputSelector().length).toBe(2);
     expect(checkboxInputSelector()[0].value).toEqual("Bike");
     expect(checkboxInputSelector()[1].value).toEqual("Car");
