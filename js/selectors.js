@@ -8,9 +8,13 @@ function liInOlSelector() {
 }
 
 function linkSelector() {
-  return $('#box4 .box5 a[href=#]')
+  return $("#box4 .box5 [a href = '#']")
 }
 
 function imageSelector() {
   return $("img[alt='cat sleeping']")
+}
+
+function checkboxInputSelector() {
+  return $(":checkbox")
 }
